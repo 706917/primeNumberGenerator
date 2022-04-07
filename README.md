@@ -33,3 +33,7 @@
 ##Commit 7
    - two more tests for generate($params) method
    - one of them is failing -> testGenerateForPrimeNumbersListWithReversedParameters()
+
+# Commit 8
+   - implementation to pass new tests
+   - both new tests considered having true positive pass

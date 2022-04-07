@@ -10,8 +10,10 @@ public class PrimeNumberGeneratorImpl implements PrimeNumberGenerator{
     public List<Integer> generate(int start, int end) {
 
         List<Integer> primeNumbersList = new ArrayList<>();
+        int min = Math.min(start, end);
+        int max = Math.max(start, end);
 
-        for(int i=start; i<=end; i++) {
+        for(int i=min; i<=max; i++) {
             if (isPrime(i))
                 primeNumbersList.add(i);
         }
