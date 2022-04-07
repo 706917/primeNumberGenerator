@@ -34,6 +34,9 @@
    - two more tests for generate($params) method
    - one of them is failing -> testGenerateForPrimeNumbersListWithReversedParameters()
 
-# Commit 8
+## Commit 8
    - implementation to pass new tests
    - both new tests considered having true positive pass
+
+## Commit 9
+   - Driver class to use program in command line
