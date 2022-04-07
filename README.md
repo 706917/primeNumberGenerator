@@ -22,15 +22,15 @@
    - first set of tests improved, that allowed to find a bug in implementation. Bug fixed
    - all three tests considered having confirmed true positive pass
 
-##Commit 5
+## Commit 5
    - second set of tests for generate(int start, int end) method
    - all three tests are failing
 
-##Commit 6
+## Commit 6
    - first implementation to pass second set of tests
    - all three tests considered having true positive pass
 
-##Commit 7
+## Commit 7
    - two more tests for generate($params) method
    - one of them is failing -> testGenerateForPrimeNumbersListWithReversedParameters()
 
