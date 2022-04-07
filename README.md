@@ -18,3 +18,7 @@
   - implementation to pass all three tests from the first set of tests
   - all three tests considered having true positive pass
 
+## Commit 4
+   - first set of tests improved, that allowed to find a bug in implementation. Bug fixed
+   - all three tests considered having confirmed true positive pass
+
