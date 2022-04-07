@@ -22,3 +22,6 @@
    - first set of tests improved, that allowed to find a bug in implementation. Bug fixed
    - all three tests considered having confirmed true positive pass
 
+##Commit 5
+   - second set of tests for generate(int start, int end) method
+   - all three tests are failing
