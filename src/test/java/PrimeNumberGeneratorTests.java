@@ -61,5 +61,23 @@ public class PrimeNumberGeneratorTests {
         Assert.assertEquals(primeNumbersList, underTest.generate(start, end));
     }
 
+    @Test
+    public void testGenerateForPrimeNumbersListWithReversedParameters(){
+        // this List can be initialized outside this method
+        List<Integer> primeNumbersList = new ArrayList<>(List.of(2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101));
+        int start = 102;
+        int end = -20;
+        Assert.assertEquals(primeNumbersList, underTest.generate(start, end));
+    }
+
+    @Test
+    public void testGenerateForPrimeNumbersListWithNegativeParameters(){
+        // this List can be initialized outside this method
+        List<Integer> primeNumbersList = new ArrayList<>(List.of(2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101));
+        int start = -102;
+        int end = -20;
+        Assert.assertEquals(0, underTest.generate(start, end).size());
+    }
+
 
 }

@@ -29,3 +29,7 @@
 ##Commit 6
    - first implementation to pass second set of tests
    - all three tests considered having true positive pass
+
+##Commit 7
+   - two more tests for generate($params) method
+   - one of them is failing -> testGenerateForPrimeNumbersListWithReversedParameters()
