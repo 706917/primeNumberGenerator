@@ -14,13 +14,13 @@ public class PrimeNumberGeneratorTests {
 
     @Test
     public void testIsPrimeForTrueWithPrimeNumber(){
-        int realPrimeNumber = 1;
+        int realPrimeNumber = 3;
         Assert.assertTrue(underTest.isPrime(realPrimeNumber));
     }
 
     @Test
     public void testIsPrimeForFalseWithNotPrimeNumber(){
-        int notPrimeNumber = 2;
+        int notPrimeNumber = 4;
         Assert.assertFalse(underTest.isPrime(notPrimeNumber));
     }
 
