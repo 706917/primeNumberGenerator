@@ -25,3 +25,7 @@
 ##Commit 5
    - second set of tests for generate(int start, int end) method
    - all three tests are failing
+
+##Commit 6
+   - first implementation to pass second set of tests
+   - all three tests considered having true positive pass

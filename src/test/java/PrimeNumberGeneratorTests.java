@@ -56,8 +56,8 @@ public class PrimeNumberGeneratorTests {
     public void testGenerateForPrimeNumbersList(){
         // this List can be initialized outside this method
         List<Integer> primeNumbersList = new ArrayList<>(List.of(2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101));
-        int start = 2;
-        int end = 110;
+        int start = -20;
+        int end = 102;
         Assert.assertEquals(primeNumbersList, underTest.generate(start, end));
     }
 

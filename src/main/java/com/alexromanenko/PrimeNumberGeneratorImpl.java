@@ -1,13 +1,22 @@
 package com.alexromanenko;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PrimeNumberGeneratorImpl implements PrimeNumberGenerator{
 
 
     @Override
-    public List<Integer> generate(int startingValue, int endingValue) {
-        return null;
+    public List<Integer> generate(int start, int end) {
+
+        List<Integer> primeNumbersList = new ArrayList<>();
+
+        for(int i=start; i<=end; i++) {
+            if (isPrime(i))
+                primeNumbersList.add(i);
+        }
+
+        return primeNumbersList;
     }
 
     @Override
