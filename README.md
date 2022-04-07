@@ -14,3 +14,7 @@
     - testIsPrimeForFalseWithZeroOrNegativeNumber()
   - two passed tests considered as true positive
 
+## Commit 3
+  - implementation to pass all three tests from the first set of tests
+  - all three tests considered having true positive pass
+

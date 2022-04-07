@@ -13,6 +13,9 @@ public class PrimeNumberGeneratorImpl implements PrimeNumberGenerator{
     @Override
     public boolean isPrime(int value) {
 
+        if(value < 1)
+            return false;
+
         for(int i = 2; i <= Math.sqrt(value); i++){
 
             if(value%i == 0) {
